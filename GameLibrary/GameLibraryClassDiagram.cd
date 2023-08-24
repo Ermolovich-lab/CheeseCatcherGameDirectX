@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameLibrary.Components.ColliderComponent" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\ColliderComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Components.FoodComponent" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgACAACAAIAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Components\FoodComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Components.PlayerComponent" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\PlayerComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Components.ReloadComponent" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAiAAAAAAAAAAAAAAAEABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Components\ReloadComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Factories.FoodFactory" Collapsed="true">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAIAAAAAAgAAAAAAQAAAQIAAAAQAAAAAUAA=</HashCode>
+      <FileName>Factories\FoodFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Factories.PlayerFactory" Collapsed="true">
+    <Position X="4.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Factories\PlayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Managers.UIManager" Collapsed="true">
+    <Position X="7.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEACAAgAEAAIAAAAAAAAEAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Managers\UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scenes.EndGameScene" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\EndGameScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scenes.LevelScene" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAIAQAIIAAAAABAAAAA=</HashCode>
+      <FileName>Scenes\LevelScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scenes.MainMenuScene" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\MainMenuScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Foods.FoodScript" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAAAAAAAAAAAIAAAAAAAAAACCAAgAAAA=</HashCode>
+      <FileName>Scripts\Foods\FoodScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Game.CameraMovementScript" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAQAAAAACAAAAAAAgABEAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Scripts\Game\CameraMovementScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Game.FoodLauncherScript" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="GameEngineLibrary.Scripts.Script" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="2.312" />
+        <Point X="2.25" Y="2.648" />
+        <Point X="2.148" Y="2.648" />
+        <Point X="2.148" Y="4.596" />
+        <Point X="3" Y="4.596" />
+        <Point X="3" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAgAAABAAAAAAAAAAACAAAAAAAIAAgAAAA=</HashCode>
+      <FileName>Scripts\Game\FoodLauncherScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Game.GameManager" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAgAAAAAAAAAAACAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Scripts\Game\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Game.TrashScript" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAA=</HashCode>
+      <FileName>Scripts\Game\TrashScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Cat.PlayerScript" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAEAAAAAAAAACAAAAAAAAABEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Scripts\Player\PlayerScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Utils.ColliderScript" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAAAAAAA=</HashCode>
+      <FileName>Scripts\Utils\ColliderScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Scripts.Utils.ReloadScript" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Scripts\Utils\ReloadScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngineLibrary.Scripts.Script" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Game.Scene" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameEngineLibrary.Components.ObjectComponent" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Collisions.SphereCollision" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Collisions.RayCollision" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Collisions.ObjectCollision" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Collisions.BoxCollision" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Graphics.Camera" Collapsed="true">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Graphics.OrthoCamera" Collapsed="true">
+    <Position X="11.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GameEngineLibrary.Scripts.KeyboardListenerScript" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
